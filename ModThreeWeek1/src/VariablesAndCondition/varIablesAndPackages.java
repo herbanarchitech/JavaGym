@@ -26,7 +26,7 @@ public class varIablesAndPackages {
 	public static void main(String[] args) {
 		// I. We'll be writing a grading system to track students grade .
 		
-		int grade = 90;
+		int grade = 100;
 		
 		char A='A', B='B', C='C', D='D', F='F';		
 		if(grade >= 90 && grade <=100) {
@@ -38,14 +38,58 @@ public class varIablesAndPackages {
 			System.out.println(B);
 			
 		}
-		//else if( grade )
+		else if( grade >=70 && grade < 80) {
+			System.out.println(C);
+		}
 		
-		
+		else if(grade >= 55 && grade < 70) {
 			
+			System.out.println(D);	
+		}
+		
+		else {
+			
+			System.out.println('F');
+		}
+		
+		
+		// II.) Using Switch statement Store a number between 1-7 If the number is 1, display a message "Monday", 2 for "Tuesday", 3 for "Wednesday" etc.
+		//Anything other than 1-7 would default to "Invalid Input"
+		
+		int laSemaine = 'M';
+		
+		switch (laSemaine) {
+			
+			case 1: System.out.println("Lundi");
+			break;
+			
+			case 2 : System.out.println("Mardi");
+			break;
+				
+			case 3 : System.out.println("Mercredi");
+			break;
+			
+			case 4 : System.out.println("Jeudi");
+			break;
+			
+			case 5 : System.out.println("Vendredi");
+			break;
+			
+			case 6 : System.out.println("Samedi");
+			break;
+
+			case 7 : System.out.println(" Dimanche");
+		break;
+		
+		default: System.out.println("Error:Input not valid");
+		
+		
+
 }
 	
 }
 
+}
 
 
 
