@@ -90,7 +90,7 @@ public class varIablesAndPackages {
 //	        If num is even and between 6-20, display "Cool"
 //	        If num is even and greater than 20, display "Not Cool
 		
-		int integer = 7;
+		int integer = 32;
 		
 		
 		// Here putting nested if statements to great use
@@ -118,6 +118,13 @@ public class varIablesAndPackages {
 				}
 				
 			}
+		// Anything greater is not cool
+		else if (integer >=20) {
+			
+			
+			System.out.println("not cool");
+		
+		}
 		
 		
 	}
