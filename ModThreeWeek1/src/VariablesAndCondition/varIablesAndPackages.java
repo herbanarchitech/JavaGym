@@ -83,13 +83,51 @@ public class varIablesAndPackages {
 		
 		default: System.out.println("Error:Input not valid");
 		
+		}
 		
+//		III.) Store a number in a variable called num and write an if statement:  If num is odd, display "Cool"
+//	        If num is even and between 2-5, display "Not Cool"
+//	        If num is even and between 6-20, display "Cool"
+//	        If num is even and greater than 20, display "Not Cool
+		
+		int integer = 7;
+		
+		
+		// Here putting nested if statements to great use
+		if(integer >=2 && integer <= 5) {
+			
+			if(integer % 2 ==0) {
+				
+				System.out.println("cool");
+		
+			}else {
+				System.out.println("Number is not even, sooo.....");
+				}
+			
+		}
+		else if(integer >=6 && integer <= 20) {
+			
+			if(integer % 2 == 0) {
+				
+				System.out.println("Cool");
+				
+			}else {
+				
+				System.out.println("Number is not even , soo....");
+					
+				}
+				
+			}
+		
+		
+	}
+			
 
 }
 	
-}
 
-}
+
+
 
 
 
